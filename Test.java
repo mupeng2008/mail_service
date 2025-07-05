@@ -1,6 +1,10 @@
 public class Test {
 
     public String getString(){
-        return "123";
+        return initString("1");
+    }
+
+    public String initString(String s){
+        return s;
     }
 }
